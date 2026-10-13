@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A multi-region daily target and results portal for members across Asia and the Gulf.">
+  <title>Probashi Voice | Daily Target Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Vercel Speed Insights -->
+  <script type="module">
+    import { injectSpeedInsights } from 'https://cdn.jsdelivr.net/npm/@vercel/speed-insights@2.0.0/+esm';
+    injectSpeedInsights();
+  </script>
+</head>
+<body>
+  <header class="site-header"><div class="container navbar">
+    <a class="brand" href="index.html"><span class="brand-mark">P</span><span class="brand-name">PROBASHI VOICE</span></a>
+    <nav class="nav-links" aria-label="Primary navigation"><a href="#regions">Regions</a><a href="#vip">VIP Access</a><a href="#official-links">Official Links</a></nav>
+  </div></header>
+  <main>
+    <section class="hero"><div class="container hero-grid">
+      <div><span class="eyebrow">Daily target intelligence · 08 regions</span><h1>Today’s board, arranged by region.</h1><p class="hero-copy">A composed dashboard for members tracking daily target notes and results across Southeast Asia and the Gulf. Choose a region to open its private board.</p></div>
+      <aside class="hero-note"><strong><span class="status">Live board</span></strong><p>This is a completed front-end shell. Target values are demo data until a verified operator feed is connected; no live result is fabricated.</p></aside>
+    </div></section>
+    <section class="section" id="regions"><div class="container">
+      <div class="section-heading"><div><span class="eyebrow">Select your market</span><h2>Regional rooms</h2><p>Each room includes target panels, recent results, and VIP channel access.</p></div><input class="search" type="search" placeholder="Search a country…" aria-label="Search countries" data-region-search></div>
+      <div class="region-grid">
+        <a class="region-card" data-region-card="Thailand" href="countries/thailand.html"><div class="region-top"><span class="country-flag" role="img" aria-label="Thailand flag">🇹🇭</span><span class="region-code">01 / 08</span></div><div><h3>Thailand</h3><p>3UP & Touch magazine tips</p><span class="card-link">Open room →</span></div></a>
+        <a class="region-card" data-region-card="Malaysia" href="countries/malaysia.html"><div class="region-top"><span class="country-flag" role="img" aria-label="Malaysia flag">🇲🇾</span><span class="region-code">02 / 08</span></div><div><h3>Malaysia</h3><p>4D & Grand Dragon targets</p><span class="card-link">Open room →</span></div></a>
+        <a class="region-card" data-region-card="Singapore" href="countries/singapore.html"><div class="region-top"><span class="country-flag" role="img" aria-label="Singapore flag">🇸🇬</span><span class="region-code">03 / 08</span></div><div><h3>Singapore</h3><p>Singapore 4D updates</p><span class="card-link">Open room →</span></div></a>
+        <a class="region-card" data-region-card="Saudi Arabia" href="countries/saudi.html"><div class="region-top"><span class="country-flag" role="img" aria-label="Saudi Arabia flag">🇸🇦</span><span class="region-code">04 / 08</span></div><div><h3>Saudi Arabia</h3><p>VIP updates & analysis</p><span class="card-link">Open room →</span></div></a>
+        <a class="region-card" data-region-card="Kuwait" href="countries/kuwait.html"><div class="region-top"><span class="country-flag" role="img" aria-label="Kuwait flag">🇰🇼</span><span class="region-code">05 / 08</span></div><div><h3>Kuwait</h3><p>VIP updates & analysis</p><span class="card-link">Open room →</span></div></a>
+        <a class="region-card" data-region-card="Bahrain" href="countries/bahrain.html"><div class="region-top"><span class="country-flag" role="img" aria-label="Bahrain flag">🇧🇭</span><span class="region-code">06 / 08</span></div><div><h3>Bahrain</h3><p>VIP updates & analysis</p><span class="card-link">Open room →</span></div></a>
+        <a class="region-card" data-region-card="Qatar" href="countries/qatar.html"><div class="region-top"><span class="country-flag" role="img" aria-label="Qatar flag">🇶🇦</span><span class="region-code">07 / 08</span></div><div><h3>Qatar</h3><p>VIP updates & analysis</p><span class="card-link">Open room →</span></div></a>
+        <a class="region-card" data-region-card="Brunei" href="countries/brunei.html"><div class="region-top"><span class="country-flag" role="img" aria-label="Brunei flag">🇧🇳</span><span class="region-code">08 / 08</span></div><div><h3>Brunei</h3><p>VIP updates & analysis</p><span class="card-link">Open room →</span></div></a>
+      </div><div class="no-results" data-no-results>No region matched that search. Try another country name.</div>
+    </div></section>
+    <section class="section" id="vip"><div class="container"><div class="vip"><div><span class="eyebrow">Private channel access</span><h2>Keep the next drop close.</h2><p>Connect to the published WhatsApp channel for daily notices. Telegram can be added once its approved URL is supplied.</p></div><div class="vip-actions"><a class="btn btn-gold" href="https://wa.me/8801324360629" target="_blank" rel="noreferrer">WhatsApp VIP</a><a class="btn btn-ghost" href="#official-links">Official Links</a></div></div></div></section>
+
+    <section class="section" id="official-links"><div class="container"><div class="official-links"><div class="official-header"><div><span class="eyebrow">Stay connected</span><h2>Official channels</h2></div><p>Follow Probashi Voice for official links, daily notices, and the latest updates from our team.</p></div><div class="official-grid"><a class="official-link" href="https://www.youtube.com/@ProbashiVoicesymy" target="_blank" rel="noreferrer"><span class="channel-badge">YT</span><span><strong class="channel-name">YouTube</strong><span class="channel-handle">@ProbashiVoicesymy</span></span></a><a class="official-link" href="https://wa.me/8801324360629" target="_blank" rel="noreferrer"><span class="channel-badge">WA</span><span><strong class="channel-name">WhatsApp</strong><span class="channel-handle">+880 1324 360629</span></span></a><a class="official-link" href="https://x.com/IsmailHossenDx" target="_blank" rel="noreferrer"><span class="channel-badge">X</span><span><strong class="channel-name">X / Twitter</strong><span class="channel-handle">@IsmailHossenDx</span></span></a><a class="official-link" href="https://threads.com/@4d6dmktshe" target="_blank" rel="noreferrer"><span class="channel-badge">TH</span><span><strong class="channel-name">Threads</strong><span class="channel-handle">@4d6dmktshe</span></span></a><a class="official-link" href="mailto:golapiloveyou557@gmail.com"><span class="channel-badge">@</span><span><strong class="channel-name">Email</strong><span class="channel-handle">golapiloveyou557@gmail.com</span></span></a></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-row"><span>© 2026 Probashi Voice</span><span>Private daily target portal</span></div><div class="container disclaimer">For demonstration purposes only. Replace sample numbers and channel links with verified, approved operator content before launch.</div></footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
